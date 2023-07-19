@@ -14,11 +14,11 @@ If you want To train the model and evaluate it afterward, you can use preprocess
 # emotion classifier with GUI 
 Put the downloaded checkpoint.pt at the same root of GUI.py and run GUI.py. In will apply the checkpoint.pt and a GUI will then pop out. You can then input text into the input field and click "Click to get emotion" and the program will classifier the emotion and show its emoji out. Below is an example:
 
-<img src="image/example.PNG" alt="example.PNG">
+<img src="image/example.PNG" alt="example.PNG" height="400">
 
 # Structure of the classifier
 Below is the structure. It gives 6 output responsible to 6 class of emotions, the biggest one is the classifiered emotion.</br> For {'anger': 0, 'fear': 1, 'joy': 2, 'love': 3, 'sadness': 4, 'surprise': 5}.</br>
-<img src="image/structure.PNG" alt="structure.PNG">
+<img src="image/structure.PNG" alt="structure.PNG" width ="800">
 
 # Requirement
 python 3.7.9</br>
