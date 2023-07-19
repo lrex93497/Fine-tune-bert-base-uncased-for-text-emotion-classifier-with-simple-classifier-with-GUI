@@ -9,7 +9,7 @@ The model is fined tuned from bert-base-uncased by using training dataset from h
 On the valdiation dataset, the model can achieve 93.95% of accuracy. The trained model can be downloaded at https://huggingface.co/lrex93497/bert-6-text-emotion-classifier.
 Just download the checkpoint.pt .
 
-If you want To train the model and evaluate it afterward, you can use preprocess_and_train_and_evaluate.ipynb . It can train with 6gb vram as the max_lenght is set to 150. At the end it will gives accuracy and loss for the fine tuned model, asn save the checkpoint.pt.
+If you want To train the model and evaluate it afterward, you can use preprocess_and_train_and_evaluate.ipynb . It can train with 6gb vram as the max_lenght is set to 150. At the end it will gives accuracy and loss for the fine tuned model, and then save the checkpoint.pt.
 
 # emotion classifier with GUI 
 Put the downloaded checkpoint.pt at the same root of GUI.py and run GUI.py. In will apply the checkpoint.pt and a GUI will then pop out. You can then input text into the input field and click "Click to get emotion" and the program will classifier the emotion and show its emoji out. Below is an example:
