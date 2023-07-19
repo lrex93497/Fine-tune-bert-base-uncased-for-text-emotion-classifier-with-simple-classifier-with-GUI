@@ -17,7 +17,7 @@ Put the downloaded checkpoint.pt at the same root of GUI.py and run GUI.py. In w
 <img src="image/example.PNG" alt="example.PNG" height="400">
 
 # Structure of the classifier
-Below is the structure. It gives 6 output responsible to 6 class of emotions, the biggest one is the classifiered emotion.</br> For {'anger': 0, 'fear': 1, 'joy': 2, 'love': 3, 'sadness': 4, 'surprise': 5}.</br>
+Below is the structure. It gives 6 output responsible to 6 class of emotions, the biggest one is the classifiered emotion.</br> 6 output for {'anger': 0, 'fear': 1, 'joy': 2, 'love': 3, 'sadness': 4, 'surprise': 5}.</br>
 <img src="image/structure.PNG" alt="structure.PNG" width ="800">
 
 # Requirement
